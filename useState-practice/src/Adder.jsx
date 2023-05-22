@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export default function Adder() {
   const [inputText, setInputText] = useState("");
@@ -33,18 +33,22 @@ export default function Adder() {
         value={inputText}
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
+        placeholder="Enter task..."
       />
       <button id="submit" onClick={addItem}>
-        Add Item
+        Add
       </button>
       <ul>
         {tasksList.map((task, index) => (
-          <div key={index}>
+          <div className="adder" key={index}>
             <li>{task}</li>
-            <button onClick={() => removeItem(index)}>X</button>
+            <button className="X" onClick={() => removeItem(index)}>
+              X
+            </button>
           </div>
         ))}
       </ul>
+        <img src="src/Adder.jpg"></img>
     </div>
   );
 }
