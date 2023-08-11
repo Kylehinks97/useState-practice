@@ -27,7 +27,7 @@ export default function Adder() {
     }
   }
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
         value={inputText}
@@ -48,7 +48,11 @@ export default function Adder() {
           </div>
         ))}
       </ul>
-        <img src="src/Adder.jpg"></img>
+      <img
+        src="/public/images/Adder.jpg"
+        style={{ width: "80%" }}
+        className="code-image"
+      ></img>
     </div>
   );
 }

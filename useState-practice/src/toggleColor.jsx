@@ -20,7 +20,7 @@ export default function ToggleColor() {
         </p>
         <button id="toggle-button" onClick={toggleClass} className={className}>Click me to toggle my colour!</button>
         <p>Here is how it works:</p>
-        <img src="/src/toggleColor.jpeg" className = "code-image"></img>
+        <img src="/public/images/toggleColor.jpeg" className="code-image"></img>
         </div>
     )
 }

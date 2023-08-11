@@ -6,8 +6,7 @@
 }
 .increment-btn {
   margin: 10px;
-  height: 40px;
-  width: 100px;
+  width: fit-content;
   font-size: 30px;
 }
 

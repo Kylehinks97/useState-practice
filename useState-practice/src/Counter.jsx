@@ -14,7 +14,7 @@ export default function Counter() {
       <button className="increment-btn" onClick={() => increment(1)}>+1</button>
       <button className="increment-btn" onClick={() => increment(-1)}>-1</button>
       <p>Here is the code:</p>
-      <img src="/src/Counter.jpeg"></img>
+      <img src="/src/Counter.jpeg" style={{width: "80%"}} className="code-image"></img>
     </div>
   );
 }
